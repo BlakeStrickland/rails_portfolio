@@ -77,41 +77,41 @@ range.on('input', function(){
 /*===================
 	 PORTFOLIO
 ===================*/
-(function ($){
-
-	$('.projects').imagesLoaded(function() {
-        var options = {
-			autoResize: true,
-			container: $('.projects-container'),
-			offset:0
-        };
-
-		var handler = $('.projects li');
-		filters = $('.portfolio-filters li');
-
-		handler.wookmark(options);
-
-		/**
-         * When a filter is clicked, toggle it's active state and refresh.
-         */
-        var onClickFilter = function(event) {
-			var item = $(event.currentTarget), activeFilters = [];
-
-			if (!item.hasClass('active')) {
-				filters.removeClass('active');
-			}
-			item.toggleClass('active');
-
-			// Filter by the currently selected filter
-			if (item.hasClass('active')) {
-				activeFilters.push(item.data('filter'));
-			}
-
-			handler.wookmarkInstance.filter(activeFilters);
-        }
-
-		// Capture filter click events.
-		filters.click(onClickFilter);
-    });
-
-})(jQuery);
+// (function ($){
+//
+// 	$('.projects').imagesLoaded(function() {
+//         var options = {
+// 			autoResize: true,
+// 			container: $('.projects-container'),
+// 			offset:0
+//         };
+//
+// 		var handler = $('.projects li');
+// 		filters = $('.portfolio-filters li');
+//
+// 		handler.wookmark(options);
+//
+// 		/**
+//          * When a filter is clicked, toggle it's active state and refresh.
+//          */
+//         var onClickFilter = function(event) {
+// 			var item = $(event.currentTarget), activeFilters = [];
+//
+// 			if (!item.hasClass('active')) {
+// 				filters.removeClass('active');
+// 			}
+// 			item.toggleClass('active');
+//
+// 			// Filter by the currently selected filter
+// 			if (item.hasClass('active')) {
+// 				activeFilters.push(item.data('filter'));
+// 			}
+//
+// 			handler.wookmarkInstance.filter(activeFilters);
+//         }
+//
+// 		// Capture filter click events.
+// 		filters.click(onClickFilter);
+//     });
+//
+// })(jQuery);
