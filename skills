@@ -1,0 +1,139 @@
+
+<!-- =========================
+     SKILLS
+========================= -->
+<section class="skills">
+	<div class="wrapper">
+
+		<!-- HEADING -->
+		<h2>Skills</h2>
+
+		<!-- LINE -->
+		<div class="main-line"></div>
+
+		<!-- SKILL #1 -->
+		<div class="skill">
+			<div class="progress-pie-chart progress-pie-chart1" data-percent="94">
+				<div class="ppc-progress ppc-progress1">
+					<div class="ppc-progress-fill ppc-progress-fill1"></div>
+				</div>
+
+				<div class="ppc-percents ppc-percents1">
+					<div class="pcc-percents-wrapper">
+						<span>%</span>
+					</div>
+				</div>
+			</div>
+
+			<!-- HEADING -->
+			<h3>Ruby</h3>
+
+			<script>
+				$(function(){
+					var $ppc1 = $('.progress-pie-chart1'),
+					percent1 = parseInt($ppc1.data('percent')),
+					deg = 360*percent1/100;
+					if (percent1 > 50) {
+						$ppc1.addClass('gt-50');
+					}
+					$('.ppc-progress-fill1').css('transform','rotate('+ deg +'deg)');
+					$('.ppc-percents1 span').html(percent1+'%');
+				});
+			</script>
+		</div> <!-- /END SKILL #1 -->
+
+		<!-- SKILL #2 -->
+		<div class="skill">
+			<div class="progress-pie-chart progress-pie-chart2" data-percent="82">
+				<div class="ppc-progress ppc-progress2">
+					<div class="ppc-progress-fill ppc-progress-fill2"></div>
+				</div>
+
+				<div class="ppc-percents ppc-percents2">
+					<div class="pcc-percents-wrapper">
+						<span>%</span>
+					</div>
+				</div>
+			</div>
+
+			<!-- HEADING -->
+			<h3>Rails</h3>
+
+			<script>
+				$(function(){
+					var $ppc2 = $('.progress-pie-chart2'),
+					percent2 = parseInt($ppc2.data('percent')),
+					deg = 360*percent2/100;
+					if (percent2 > 50) {
+						$ppc2.addClass('gt-50');
+					}
+					$('.ppc-progress-fill2').css('transform','rotate('+ deg +'deg)');
+					$('.ppc-percents2 span').html(percent2+'%');
+				});
+			</script>
+		</div> <!-- /END SKILL #2 -->
+
+		<!-- SKILL #3 -->
+		<div class="skill">
+			<div class="progress-pie-chart progress-pie-chart3" data-percent="86">
+				<div class="ppc-progress ppc-progress3">
+					<div class="ppc-progress-fill ppc-progress-fill3"></div>
+				</div>
+
+				<div class="ppc-percents ppc-percents3">
+					<div class="pcc-percents-wrapper">
+						<span>%</span>
+					</div>
+				</div>
+			</div>
+
+			<!-- HEADING -->
+			<h3>Python</h3>
+
+			<script>
+				$(function(){
+					var $ppc3 = $('.progress-pie-chart3'),
+					percent3 = parseInt($ppc3.data('percent')),
+					deg = 360*percent3/100;
+					if (percent3 > 50) {
+						$ppc3.addClass('gt-50');
+					}
+					$('.ppc-progress-fill3').css('transform','rotate('+ deg +'deg)');
+					$('.ppc-percents3 span').html(percent3+'%');
+				});
+			</script>
+		</div> <!-- /END SKILL #3 -->
+
+		<!-- SKILL #4 -->
+		<div class="skill">
+			<div class="progress-pie-chart progress-pie-chart4" data-percent="30">
+				<div class="ppc-progress ppc-progress4">
+					<div class="ppc-progress-fill ppc-progress-fill4"></div>
+				</div>
+
+				<div class="ppc-percents ppc-percents4">
+					<div class="pcc-percents-wrapper">
+						<span>%</span>
+					</div>
+				</div>
+			</div>
+
+			<!-- HEADING -->
+			<h3>JavaScript</h3>
+
+			<script>
+				$(function(){
+					var $ppc4 = $('.progress-pie-chart4'),
+					percent4 = parseInt($ppc4.data('percent')),
+					deg = 360*percent4/100;
+					if (percent4 > 50) {
+						$ppc4.addClass('gt-50');
+					}
+					$('.ppc-progress-fill4').css('transform','rotate('+ deg +'deg)');
+					$('.ppc-percents4 span').html(percent4+'%');
+				});
+			</script>
+		</div> <!-- /END SKILL #4 -->
+
+	</div> <!-- /END WRAPPER -->
+</section>
