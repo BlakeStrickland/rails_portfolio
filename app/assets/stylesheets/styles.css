@@ -1,23 +1,11 @@
-/* --------------------------------------
-=========================================
-SELENA - Free Multi-purpose One Page Template
-Version: 1.0 (Initial Release)
-Designed By: Maher Jarrah
 
-Website: 		http: //maherjarrah.com
-Twitter: 			https: //twitter.com/MaherJarrah1
-Facebook: 		https: //fb.com/maherjarrah111
-Behance: 		https: //www.behance.net/maherjarrah
-
-You can use this template for your personal purposes only, and it's under Creative Commons Attribution-NonCommercial v3.0 license https: //creativecommons.org/licenses/by-nc/3.0/
-=========================================
-
+/*
 1. IMPORT FONTS
 
 2. GLOBAL STYLES
 	2.1 GENERAL STYLES
 	2.2 PRE LOADER
-	2.3 ANCHOR AND BOLD TEXT  
+	2.3 ANCHOR AND BOLD TEXT
 	2.4 MISC FIXES
 
 3. COMPONENTS
@@ -45,16 +33,16 @@ You can use this template for your personal purposes only, and it's under Creati
 	4.6 SECTION: PORTFOLIO
 	4.7 SECTION: CALL TO ACTION
 	4.8 SECTION: PRICING
-	4.9 SECTION: SUBSCRIBE 
+	4.9 SECTION: SUBSCRIBE
 	4.10 SECTION: TEAM
 	4.11 SECTION: FOOTER
 	4.12 SECTION: CONTACT
-	
+
 5. PAGES SPECIFIC CSS
 	5.1 SECTION: PAGE HEADER
 	5.2 SINGLE PORTFOLIO
 	5.3 404 AND SEND MAIL PAGES
-	
+
 6 FOOTER
 
 -----------------------------------------*/
@@ -142,23 +130,23 @@ body {
 	0% {
 		transform: scale(1);
 	}
-	
+
 	20% {
 		transform: scale(1.2);
 	}
-	
+
 	40% {
 		transform: scale(1);
 	}
-	
+
 	60% {
 		transform: scale(1.2);
 	}
-	
+
 	80% {
 		transform: scale(1) rotate(0deg);
 	}
-	
+
 	100% {
 		transform: scale(1) rotate(180deg);
 	}
@@ -252,7 +240,7 @@ ol {
 
 /* --------------------------------------
 =========================================
-   3. COMPONENTS 
+   3. COMPONENTS
 =========================================
 -----------------------------------------*/
 
@@ -1604,7 +1592,7 @@ header {
 }
 
 .single-project h3 {
-	text-transform: uppercase;	
+	text-transform: uppercase;
 }
 
 .touch .single-project h3 {
@@ -1747,7 +1735,7 @@ header {
 }
 
 .circular-pricing-table .main-package {
-	
+
 }
 
 .main-package .package-header {

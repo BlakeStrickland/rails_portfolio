@@ -1,17 +1,3 @@
-/* -------------------------------------------------------------------------------
-=========================================
-SELENA - Free Multi-purpose One Page Template
-Version: 1.0 (Initial Release)
-Designed By: Maher Jarrah
-
-Website: 		http: //maherjarrah.com
-Twitter: 			https: //twitter.com/MaherJarrah1
-Facebook: 		https: //fb.com/maherjarrah111
-Behance: 		https: //www.behance.net/maherjarrah
-
-You can use this template for your personal purposes only, and it's under Creative Commons Attribution-NonCommercial v3.0 license https: //creativecommons.org/licenses/by-nc/3.0/
-=========================================
---------------------------------------------------------------------------------*/
 
 @media (min-width: 340px)  {
 	.icon-box {
@@ -24,19 +10,19 @@ You can use this template for your personal purposes only, and it's under Creati
 	html {
 		font-size: 15px;
 	}
-	
+
 	h4 {
 		font-size: 1.25rem;
 	}
-	
+
 	h5 {
 		font-size: 18px;
 	}
-	
+
 	h6 {
 		font-size: 16px;
 	}
-	
+
 	.col-3,
 	.col-4,
 	.col-6,
@@ -45,47 +31,47 @@ You can use this template for your personal purposes only, and it's under Creati
 	.col-12 {
 		text-align: left;
 	}
-	
+
 	.col-6 {
 		width: 50%;
 	}
-	
+
 	.col-3 {
 		width: 50%;
 	}
-	
+
 	.text-left {
 		text-align: left;
 	}
-	
+
 	.text-center {
 		text-align: center;
 	}
-	
+
 	.text-right {
 		text-align: right;
 	}
-	
+
 	.list-content {
 		height: 50px;
 	}
-	
+
 	.icon i {
 		width: 50px;
 		height: 50px;
 	}
-	
+
 	.testimonial-box img {
 		display: inline-block;
 	}
-	
+
 	.testimonial {
 		display: inline-block;
 		width: calc(100% - 128px);
 		padding-left: 30px;
 		text-align: left;
 	}
-	
+
 	.wrapper {
 		padding-top: 100px;
 		padding-bottom: 100px;
@@ -94,15 +80,15 @@ You can use this template for your personal purposes only, and it's under Creati
 	.statistics .wrapper {
 		padding-bottom: 0px;
 	}
-	
+
 	.skill {
 		margin-bottom: 100px;
 	}
-	
+
 	.contact .styled-icon-list span {
 		height: 50px;
 	}
-	
+
 	.informations-table span {
 		min-width: 150px;
 	}
@@ -112,7 +98,7 @@ You can use this template for your personal purposes only, and it's under Creati
 	.package {
 		width: 400px;
 	}
-	
+
 	.skill {
 		margin-right: 50px;
 		margin-left: 50px;
@@ -123,15 +109,15 @@ You can use this template for your personal purposes only, and it's under Creati
 	.col-4 {
 		width: 33.3333%;
 	}
-	
+
 	.col-8 {
 		width: 66.6666%;
 	}
-	
+
 	.contact form .col-6 {
 		width: 50%;
 	}
-	
+
 	.contact form {
 		border: 1px solid #fff;
 		padding: 40px;
@@ -143,13 +129,13 @@ You can use this template for your personal purposes only, and it's under Creati
 		display: block;
 		text-align: center;
 	}
-	
+
 	.contact .styled-icon-list li {
 		display: inline-block;
 		margin-bottom: 0;
 		margin-left: 20px;
 	}
-	
+
 	.contact .styled-icon-list li:first-child {
 		margin-left: 0;
 	}
@@ -159,49 +145,49 @@ You can use this template for your personal purposes only, and it's under Creati
 	html {
 		font-size: 16px;
 	}
-	
+
 	.col-3 {
 		width: 25%;
 	}
-	
+
 	.col-9 {
 		width: 75%;
 	}
-	
+
 	.col-9 + .col-3 {
 		width: 25%;
 	}
-	
+
 	.home .wrapper {
 		padding-top: 277px;
 		padding-bottom: 180px;
 	}
-	
+
 	.about .wrapper > .col-6 {
 		width: 50%;
 	}
-	
+
 	.package {
 		width: 260px;
 		margin-bottom: 0px;
 	}
-	
+
 	.main-package {
 		width: 300px;
 	}
-	
+
 	.package:first-child {
 		margin-right: -50px;
 	}
-	
+
 	.package:last-child {
 		margin-left: -50px;
 	}
-	
+
 	.circular-pricing-table .package:last-child {
 		margin-left: -175px;
 	}
-	
+
 	.subscribe input[type=email] {
 		width: 400px;
 		margin-right: 20px;
@@ -213,21 +199,21 @@ You can use this template for your personal purposes only, and it's under Creati
 		height: auto;
 		padding: 25px;
 	}
-	
+
 	.navigation {
 		box-shadow: 0px 2px 8px 0px rgba(50, 50, 50, 0.5);
 	}
-	
+
 	.navigation-links li {
 		display: inline-block;
 		padding: 0px 15px;
 	}
-	
+
 	.navigation li a {
 		padding: 25px 0px;
 		font-size: 1.25rem;
 	}
-	
+
 	.navigation-links li ul {
 		opacity: 0;
 		visibility: hidden;
@@ -236,21 +222,21 @@ You can use this template for your personal purposes only, and it's under Creati
 		box-shadow: 0px 2px 4px 0px rgba(50, 50, 50, 0.5);
 		border-top: 5px solid #fff;
 	}
-	
+
 	.navigation-links li li a {
 		padding: 15px 70px;
 		padding: 15px;
 	}
-	
+
 	.navigation-links > li > a:hover {
 		background: transparent;
 		color: #fff;
 	}
-	
+
 	.navigation-links > li > a:hover:after, .navigation-links > .current > a:after {
 		width: 100%;
 	}
-	
+
 	.home .wrapper {
 		padding-top: 246px;
 		padding-bottom: 180px;
@@ -261,15 +247,15 @@ You can use this template for your personal purposes only, and it's under Creati
 	.circular-pricing-table {
 		min-height: 0;
 	}
-	
+
 	.package {
 		width: 350px;
 	}
-	
+
 	.main-package {
 		width: 400px;
 	}
-	
+
 	.circular-pricing-table .package {
 		position: relative;
 		left: 0;
@@ -280,7 +266,7 @@ You can use this template for your personal purposes only, and it's under Creati
 		margin-left: 0;
 		top: 0;
 	}
-	
+
 	.circular-pricing-table .package:last-child {
 		margin-left: -50px;
 		top: 0;
@@ -291,17 +277,17 @@ You can use this template for your personal purposes only, and it's under Creati
 	.icon-boxes {
 		max-width: 100%;
 	}
-	
+
 	.icon-boxes:after {
 		display: block;
 	}
-	
+
 	.icon-box {
 		width: 260px;
 		padding: 0px 30px;
 		margin-bottom: 0px;
 	}
-	
+
 	.navigation .btn-container {
 		display: inline-block;
 	}
@@ -310,7 +296,7 @@ You can use this template for your personal purposes only, and it's under Creati
 	.team .wrapper {
 		max-width: none;
 	}
-	
+
 	.single-member {
 		margin-bottom: 0;
 	}
