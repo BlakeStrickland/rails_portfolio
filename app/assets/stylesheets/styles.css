@@ -56,9 +56,7 @@
     font-family: 'sourcesans';
     src: url('../fonts/sourcesans-webfont.eot');
     src: url('../fonts/sourcesans-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/sourcesans-webfont.woff2') format('woff2'),
-         url('../fonts/sourcesans-webfont.woff') format('woff'),
-         url('../fonts/sourcesans-webfont.ttf') format('truetype'),
+
          url('../fonts/sourcesans-webfont.svg#source_sans_prolight') format('svg');
     font-weight: normal;
     font-style: normal;
@@ -68,8 +66,6 @@
      font-family: 'FontAwesome';
      src: url('../fonts/fontawesome-webfont.eot?v=3.2.1');
      src: url('../fonts/fontawesome-webfont.eot?#iefix&v=3.2.1') format('embedded-opentype'),
-	 url('../fonts/fontawesome-webfont.woff?v=3.2.1') format('woff'),
-	 url('../fonts/fontawesome-webfont.ttf?v=3.2.1') format('truetype'),
 	 url('../fonts/fontawesome-webfont.svg#fontawesomeregular?v=3.2.1') format('svg');
 }
 
@@ -1342,7 +1338,6 @@ header {
 ==========================================*/
 .home {
 	position: relative;
-	background-image: url(../images/header.jpg);
 	background-color: #2c3e50;
 }
 
@@ -1824,7 +1819,6 @@ header {
    4.12 SECTION: CONTACT
 ==========================================*/
 .contact {
-	background-image: url(../images/contact.jpg);
 	background-color: #2c3e50;
 }
 
@@ -1873,7 +1867,6 @@ header {
    5.1 SECTION: PAGE HEADER
 ==========================================*/
 .page-header {
-	background-image: url(../images/page-header.jpg);
 	background-color: #2c3e50;
 	background-position: top;
 }
@@ -1921,7 +1914,6 @@ header {
 }
 
 .send-mail-header {
-	background-image: url(../images/page-header.jpg);
 	background-color: #2c3e50;
 }
 
