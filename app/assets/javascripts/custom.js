@@ -54,14 +54,14 @@ $(document).ready(function() {
 
 });
 
-(function ($){
-
-	$(".navigation-links").navigation({
-		maxWidth: "930px",
-		label: false
-	});
-
-})(jQuery);
+// (function ($){
+//
+// 	$(".navigation-links").navigation({
+// 		maxWidth: "930px",
+// 		label: false
+// 	});
+//
+// })(jQuery);
 
 /*===================
 	 RANGE INPUT
