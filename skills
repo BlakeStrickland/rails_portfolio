@@ -160,3 +160,49 @@
 		</div> <!-- /END OVERLAY -->
 	</div> <!-- /END WRAPPER -->
 </section>
+
+===============
+items and square images
+===============
+
+<ul class="styled-icon-list">
+  <!-- SINGLE LIST ITEM -->
+  <li>
+    <!-- ICON -->
+    <div class="icon">
+      <i class="fa fa-glass"></i>
+    </div>
+    <!-- CONTENT -->
+    <span class="list-content">Services</span>
+  </li>
+
+  <!-- SINGLE LIST ITEM -->
+  <li>
+    <!-- ICON -->
+    <div class="icon">
+      <i class="fa fa-bed"></i>
+    </div>
+    <!-- CONTENT -->
+    <span class="list-content">Branches</span>
+  </li>
+
+  <!-- SINGLE LIST ITEM -->
+  <li>
+    <!-- ICON -->
+    <div class="icon">
+      <i class="fa fa-child"></i>
+    </div>
+    <!-- CONTENT -->
+    <span class="list-content">Company Roots</span>
+  </li>
+
+  <!-- SINGLE LIST ITEM -->
+  <li>
+    <!-- ICON -->
+    <div class="icon">
+      <i class="fa fa-dashboard"></i>
+    </div>
+    <!-- CONTENT -->
+    <span class="list-content">Global Scope</span>
+  </li>
+</ul>
