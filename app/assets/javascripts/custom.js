@@ -74,6 +74,8 @@ range.on('input', function(){
     value.html(this.value);
 });
 
+
+
 /*===================
 	 PORTFOLIO
 ===================*/
